@@ -1,22 +1,4 @@
 ![Logo](websocket-logo.png)
-# Websocket .NET client [![Build Status](https://travis-ci.com/Marfusios/websocket-client.svg?branch=master)](https://travis-ci.com/Marfusios/websocket-client) [![NuGet version](https://badge.fury.io/nu/Websocket.Client.svg)](https://www.nuget.org/packages/Websocket.Client) [![Nuget downloads](https://img.shields.io/nuget/dt/Websocket.Client)](https://www.nuget.org/packages/Websocket.Client)
-
-This is a wrapper over native C# class `ClientWebSocket` with built-in reconnection and error handling. 
-
-[Releases and breaking changes](https://github.com/Marfusios/websocket-client/releases)
-
-### License: 
-    MIT
-
-### Features
-
-* installation via NuGet ([Websocket.Client](https://www.nuget.org/packages/Websocket.Client))
-* targeting .NET Standard 2.0 (.NET Core, Linux/MacOS compatible)
-* reactive extensions ([Rx.NET](https://github.com/Reactive-Extensions/Rx.NET))
-* integrated logging abstraction ([LibLog](https://github.com/damianh/LibLog))
-* using Channels for high performance sending queue
-
-### Usage
 
 ```csharp
 var exitEvent = new ManualResetEvent(false);
