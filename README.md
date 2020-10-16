@@ -1,5 +1,3 @@
-![Logo](websocket-logo.png)
-
 ```csharp
 var exitEvent = new ManualResetEvent(false);
 var url = new Uri("wss://xxx");
